@@ -31,7 +31,10 @@
       <sprite>sprites\sprColumn</sprite>
     </sprites>
     <sprites name="HUD">
-      <sprite>sprites\sprHudPlayer</sprite>
+      <sprite>sprites\sprHudPlayer1</sprite>
+      <sprite>sprites\sprHudPlayer2</sprite>
+      <sprite>sprites\sprHudPlayer3</sprite>
+      <sprite>sprites\sprHudPlayer4</sprite>
       <sprite>sprites\sprHudWinner</sprite>
     </sprites>
   </sprites>
@@ -94,7 +97,10 @@
       <object>objects\objPlayer</object>
       <object>objects\obj_TimeDisplay</object>
       <object>objects\objHudWinMarker</object>
-      <object>objects\objHudPlayer</object>
+      <object>objects\objHudPlayer1</object>
+      <object>objects\objHudPlayer2</object>
+      <object>objects\objHudPlayer3</object>
+      <object>objects\objHudPlayer4</object>
       <object>objects\obj_GameController</object>
       <object>objects\objBaseThrowable</object>
       <object>objects\objCar</object>
