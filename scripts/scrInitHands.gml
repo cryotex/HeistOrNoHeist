@@ -1,2 +1,2 @@
 //Set up hand properties
-;
+
