@@ -1,5 +1,9 @@
 //Set up player properties
+image_speed = 0;
+
 playerDirection = "left";
+
+stunned = false;
 
 noPad = false;
 

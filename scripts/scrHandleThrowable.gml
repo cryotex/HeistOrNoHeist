@@ -17,8 +17,6 @@ if (currentObject == false){
     }
 }
 else{
-
-
     with(currentObject){
         if (other.playerDirection == "left"){
             hspeed = -movementSpeed*2;
