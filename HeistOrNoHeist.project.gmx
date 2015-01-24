@@ -89,6 +89,7 @@
     <objects name="GameScreen">
       <object>objects\obj_HudController</object>
       <object>objects\objPlayerHands</object>
+      <object>objects\objWalls</object>
       <object>objects\objPlayerController</object>
       <object>objects\objPlayer</object>
       <object>objects\obj_TimeDisplay</object>
@@ -107,13 +108,11 @@
       <object>objects\objColumn</object>
     </objects>
     <object>objects\obj_Globals</object>
-    <object>objects\objWalls</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmStartMenu</room>
-    <room>rooms\rmGame_test</room>
-    <room>rooms\ResultsScreen</room>
     <room>rooms\rmGame</room>
+    <room>rooms\ResultsScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

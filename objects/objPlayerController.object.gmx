@@ -34,9 +34,17 @@ with(gamepads){
 }
 var i = 0
 for(i=0; i&lt;numberOfPads; i++;){
-    players[i] = instance_create(64 + random(room_width - 128), 64 + random(room_height - 128), objPlayer);
+    players[i] = instance_create(100, 100, objPlayer);
     with(players[i]){
         playerNumber = i;
+    }
+}
+
+if (numberOfPads == 0){
+    players[i] = instance_create(100, 100, objPlayer);
+    with(players[i]){
+        playerNumber = 0;
+        noPad = true;
     }
 }
 </string>

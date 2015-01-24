@@ -6,10 +6,10 @@ globalvar timer_tick_rate;
 timer_tick_rate = 60;
 
 globalvar minutes_left;
-minutes_left = 3;
+minutes_left=0;
 
 globalvar seconds_left;
-seconds_left=0;
+seconds_left=10;
 
 
 //Scores
