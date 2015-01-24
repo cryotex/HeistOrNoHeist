@@ -63,7 +63,7 @@ friction=1;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objWalls">
+    <event eventtype="4" ename="objBaseThrowable">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -87,7 +87,7 @@ vspeed = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objBaseThrowable">
+    <event eventtype="4" ename="objWalls">
       <action>
         <libid>1</libid>
         <id>603</id>

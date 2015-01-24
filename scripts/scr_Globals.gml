@@ -9,7 +9,7 @@ globalvar minutes_left;
 minutes_left=0;
 
 globalvar seconds_left;
-seconds_left=10;
+seconds_left=30;
 
 
 //Scores
@@ -19,7 +19,7 @@ score_box_index = 0;
 
 for(i=0;i<player_count;++i)
 {
-    player_scores[i] = random_range(100, 10000);    
+    player_scores[i] = 0;    
 }
 
 globalvar sorted_scores;
