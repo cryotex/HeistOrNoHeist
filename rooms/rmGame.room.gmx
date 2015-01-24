@@ -51,9 +51,11 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objPlayerController" x="32" y="32" name="inst_5F7627E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayer" x="448" y="128" name="inst_82C5C5C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBaseThrowable" x="512" y="128" name="inst_B535304C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCar" x="672" y="224" name="inst_83887985" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_TimeDisplay" x="1344" y="48" name="inst_F605DB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1264" y="448" name="inst_11A2E7B4" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objCar" x="960" y="64" name="inst_83887985" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBaseThrowable" x="224" y="160" name="inst_DFDEAA8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBaseThrowable" x="352" y="224" name="inst_B1705DFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBaseThrowable" x="448" y="32" name="inst_D04D1221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -62,9 +64,37 @@
     <instance objName="objBaseThrowable" x="480" y="480" name="inst_EF718C5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBaseThrowable" x="96" y="320" name="inst_C1C513FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBaseThrowable" x="544" y="320" name="inst_FEE3CE96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_TimeDisplay" x="1344" y="48" name="inst_01590587" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HudController" x="64" y="32" name="inst_CA68B4EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_GameController" x="96" y="32" name="inst_8A127B10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="336" y="304" name="inst_9F630ADF" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="176" y="16" name="inst_376DF3D4" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="0" y="32" name="inst_CE7F1E6B" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="16" y="544" name="inst_9B677058" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="960" y="1072" name="inst_C7A4831A" locked="0" code="" scaleX="60" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="336" y="64" name="inst_280F800B" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="64" y="912" name="inst_759F60D0" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="336" y="912" name="inst_37308FF1" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="656" y="912" name="inst_297BAF6E" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="960" y="912" name="inst_6093CF9F" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="656" y="864" name="inst_0F6FCF1D" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="848" y="320" name="inst_9E1198D2" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="592" y="400" name="inst_F5D07252" locked="0" code="" scaleX="17" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="656" y="448" name="inst_59B37FC1" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1072" y="320" name="inst_AF430B7B" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1328" y="400" name="inst_8C7A0BE5" locked="0" code="" scaleX="17" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1584" y="304" name="inst_AC332E96" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1584" y="48" name="inst_BDDA0E29" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1760" y="16" name="inst_3C75BE45" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1904" y="544" name="inst_FD18D49C" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1856" y="912" name="inst_D1593743" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1584" y="912" name="inst_5389E8B3" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1264" y="912" name="inst_4BC875B6" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1264" y="864" name="inst_32674DE2" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="336" y="656" name="inst_1BAABF41" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1584" y="656" name="inst_FDEFCF77" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="656" y="656" name="inst_7382EFEC" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objWalls" x="1264" y="656" name="inst_65CE0B59" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HudController" x="32" y="32" name="inst_E7A0C1EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GameController" x="64" y="32" name="inst_D6E665EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerController" x="96" y="32" name="inst_5D20B7B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

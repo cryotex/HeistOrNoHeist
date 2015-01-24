@@ -19,6 +19,8 @@
       <sprite>sprites\sprPlayer</sprite>
       <sprite>sprites\sprTimeBox</sprite>
       <sprite>sprites\sprPlayerHands</sprite>
+      <sprite>sprites\sprWall</sprite>
+      <sprite>sprites\sprEmpty</sprite>
       <sprite>sprites\sprThrowable</sprite>
       <sprite>sprites\sprCar</sprite>
     </sprites>
@@ -72,6 +74,7 @@
       <script>scripts\scr_ScoreBoxDraw.gml</script>
     </scripts>
     <script>scripts\scr_Globals.gml</script>
+    <script>scripts\scrUpdateHands.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\SoftSugar</font>
@@ -104,11 +107,13 @@
       <object>objects\objColumn</object>
     </objects>
     <object>objects\obj_Globals</object>
+    <object>objects\objWalls</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmStartMenu</room>
-    <room>rooms\rmGame</room>
+    <room>rooms\rmGame_test</room>
     <room>rooms\ResultsScreen</room>
+    <room>rooms\rmGame</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
