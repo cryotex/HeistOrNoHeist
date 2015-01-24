@@ -66,6 +66,7 @@
       </scripts>
       <scripts name="hands">
         <script>scripts\scrInitHands.gml</script>
+        <script>scripts\scrUpdateHands.gml</script>
       </scripts>
     </scripts>
     <scripts name="ResultScreen">
@@ -74,7 +75,6 @@
       <script>scripts\scr_ScoreBoxDraw.gml</script>
     </scripts>
     <script>scripts\scr_Globals.gml</script>
-    <script>scripts\scrUpdateHands.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\SoftSugar</font>
