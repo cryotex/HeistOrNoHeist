@@ -1,5 +1,5 @@
 
-if (playerNumber < 4){
+if (not noPad){
     var h_move = gamepad_axis_value(playerNumber, gp_axislh);
     var v_move = gamepad_axis_value(playerNumber, gp_axislv);
     

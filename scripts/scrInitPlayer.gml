@@ -1,6 +1,8 @@
 //Set up player properties
 playerDirection = "left";
 
+noPad = false;
+
 playerNumber = 0;
 
 currentObject = 0;

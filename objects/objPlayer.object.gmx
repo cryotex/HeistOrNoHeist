@@ -72,7 +72,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (playerNumber &gt; 3) {
+            <string>if (noPad) {
     scrPlayerMoveY(movementSpeed);
 }
 </string>
@@ -97,7 +97,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (playerNumber &gt; 3) {
+            <string>if (noPad) {
     scrPlayerMoveX(movementSpeed);
 }
 </string>
@@ -122,7 +122,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (playerNumber &gt; 3) {
+            <string>if (noPad) {
     scrPlayerMoveY(-movementSpeed);
 }
 </string>
@@ -147,7 +147,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (playerNumber &gt; 3) {
+            <string>if (noPad) {
     scrPlayerMoveX(-movementSpeed);
 }
 </string>
@@ -172,7 +172,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (playerNumber &gt; 3) {
+            <string>if (noPad) {
     scrHandleThrowable();
 }
 </string>
