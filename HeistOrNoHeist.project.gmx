@@ -73,6 +73,9 @@
     </scripts>
     <script>scripts\scr_Globals.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\SoftSugar</font>
+  </fonts>
   <objects name="objects">
     <objects name="StartScreen">
       <object>objects\obPlayAgainButton</object>
