@@ -4,7 +4,11 @@ if (stunned ==false ){
         var v_move = gamepad_axis_value(playerNumber, gp_axislv);
         
         if( gamepad_button_check_pressed(playerNumber, gp_face1)){
-            scrHandleThrowable();
+            var throwSpeed = 0;
+            with(currentObject){
+                throwSpeed = movementSpeed;  
+            }
+            scrHandleThrowable(self, throwSpeed);
         }
     
         if (abs(h_move) == abs(v_move) ){
@@ -30,4 +34,10 @@ if (stunned ==false ){
         vspeed = scrApplyFriction(vspeed);
     
     scrUpdateHands(handIndex, currentObject);
+} else {
+    stunnedTime --;
+    if(stunnedTime <= 0){
+        stunned = false;
+        image_index = 0;
+    }
 }

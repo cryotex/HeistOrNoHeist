@@ -3,4 +3,3 @@ y += vspeed;
 
 hspeed = scrApplyFriction(hspeed);
 vspeed = scrApplyFriction(vspeed);
-

@@ -173,7 +173,11 @@
           <argument>
             <kind>1</kind>
             <string>if (noPad) {
-    scrHandleThrowable();
+    if(currentObject!=false){
+        with(currentObject){
+            scrHandleThrowable(self, movementSpeed);
+        }
+    }
 }
 </string>
           </argument>

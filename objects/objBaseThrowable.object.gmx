@@ -105,10 +105,19 @@ vspeed = 0;
           <argument>
             <kind>1</kind>
             <string>if (abs(hspeed) &gt; 2 or abs(vspeed) &gt; 2){
-    other.stunned = true;
-    other.image_index = 1;
-    other.hspeed = 0;
-    other.vspeed = 0;
+    if(other.stunned == false){
+        other.stunned = true;
+        other.image_index = 1;
+        other.hspeed = 0;
+        other.vspeed = 0;
+        if(other.currentObject != false){
+            mask_index = sprThrowable;
+            //other.currentObject = false;
+            scrHandleThrowable(other, 2);
+            
+        }
+        other.stunnedTime = 60*3;
+    }
 }
 
 hspeed = 0;
