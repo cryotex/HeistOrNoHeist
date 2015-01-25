@@ -130,6 +130,7 @@ vspeed = 0;
             <kind>1</kind>
             <string>if (abs(hspeed) &gt; 2 or abs(vspeed) &gt; 2){
     if(other.stunned == false){
+        audio_play_sound(sndStun, 0, false);
         other.stunned = true;
         other.image_index = 1;
         other.hspeed = 0;
@@ -176,6 +177,8 @@ vspeed = 0;
             <kind>1</kind>
             <string>hspeed = 0;
 vspeed = 0;
+
+audio_play_sound(sndWallHit, 0, false);
 </string>
           </argument>
         </arguments>

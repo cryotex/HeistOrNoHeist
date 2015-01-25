@@ -40,7 +40,9 @@ for(i=0; i&lt;numberOfPads; i++;){
         x=912 + i*sprite_width;
         y=192;
         scrSetPlayerColour(i);
-        
+        with(handIndex){
+            scrSetPlayerColour(other.playerNumber);
+        }        
     }
 }
 

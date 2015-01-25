@@ -10,6 +10,7 @@ with(player){
                 other.currentObject = false;
                 
             }else{
+                audio_play_sound(sndPickup, 2, false);
                 other.maxSpeed = 3.5;
                 other.currentObject = collidedObject;
                 with(other.currentObject){
@@ -22,6 +23,8 @@ with(player){
         }
     }
     else{
+        audio_play_sound(sndThrow, 2, false);
+    
         with(currentObject){
             if (other.playerDirection == -0){
                 hspeed = -throwSpeed*2;

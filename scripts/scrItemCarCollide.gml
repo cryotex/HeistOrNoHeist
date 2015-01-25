@@ -12,3 +12,4 @@ with(itemOwner){
 }
 
 player_scores[ownerNumber] += itemValue;
+audio_play_sound(sndReward, 2, false);

@@ -1,4 +1,4 @@
-if (stunned ==false ){
+if (stunned == false ){
     if (not noPad){
         var h_move = gamepad_axis_value(playerNumber, gp_axislh);
         var v_move = gamepad_axis_value(playerNumber, gp_axislv);
@@ -32,6 +32,23 @@ if (stunned ==false ){
         y += vspeed;
         hspeed = scrApplyFriction(hspeed);
         vspeed = scrApplyFriction(vspeed);
+        
+        with(feetIndex){
+            image_angle = other.image_angle;
+            x=other.x;
+            y=other.y;
+            if (abs(other.hspeed) + abs(other.vspeed) > 0){
+                image_speed = 2;
+                if (audio_is_playing(footstepsSound) == false){
+                footstepsSound = audio_play_sound(sndFootsteps, 2, true);
+                }else{
+                    audio_resume_sound(footstepsSound);
+                }
+            }else{
+                image_speed = 0;
+                audio_pause_sound(footstepsSound);
+            }
+        }
     
     scrUpdateHands(handIndex, currentObject);
 } else {

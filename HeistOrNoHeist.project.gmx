@@ -4,7 +4,23 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndAlarm</sound>
+    <sound>sound\sound15</sound>
+    <sound>sound\sndPush</sound>
+    <sound>sound\sndReward</sound>
+    <sound>sound\sndThrow</sound>
+    <sound>sound\sndStun</sound>
+    <sound>sound\sndPickup</sound>
+    <sound>sound\sndWallHit</sound>
+    <sound>sound\sndMusicEnd</sound>
+    <sound>sound\sndMusicLast</sound>
+    <sound>sound\sndMusicPart1</sound>
+    <sound>sound\sndMusicPart2</sound>
+    <sound>sound\sndMusicPart3</sound>
+    <sound>sound\sndMusicMenu</sound>
+    <sound>sound\sndFootsteps</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="StartScreen">
       <sprite>sprites\sprPlayAgainButton</sprite>
@@ -115,6 +131,7 @@
       <object>objects\objPlayerHands</object>
       <object>objects\objWalls</object>
       <object>objects\objPlayerController</object>
+      <object>objects\objPlayerFeet</object>
       <object>objects\objPlayer</object>
       <object>objects\obj_TimeDisplay</object>
       <object>objects\objHudWinMarker</object>
@@ -151,6 +168,7 @@
     </objects>
     <object>objects\objExit</object>
     <object>objects\obj_Globals</object>
+    <object>objects\objMusicController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmStartMenu</room>
