@@ -37,6 +37,7 @@
         <sprite>sprites\scrSarcophagus</sprite>
         <sprite>sprites\sprKnight</sprite>
         <sprite>sprites\sprCrate</sprite>
+        <sprite>sprites\sprDino</sprite>
       </sprites>
     </sprites>
     <sprites name="ResultScreen">
@@ -90,6 +91,7 @@
         <script>scripts\scrInitHands.gml</script>
         <script>scripts\scrUpdateHands.gml</script>
       </scripts>
+      <script>scripts\scrPushableCarCollide.gml</script>
     </scripts>
     <scripts name="ResultScreen">
       <script>scripts\scr_ResultsScreenCreate.gml</script>
@@ -135,6 +137,7 @@
         <object>objects\objSarcophagus</object>
         <object>objects\objKnight</object>
         <object>objects\objCrate</object>
+        <object>objects\objDino</object>
       </objects>
     </objects>
     <objects name="ResultScreen">
