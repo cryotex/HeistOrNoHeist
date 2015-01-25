@@ -166,7 +166,7 @@
       <object>objects\objColumn</object>
       <object>objects\obPlayAgainButton</object>
     </objects>
-    <object>objects\objExit</object>
+    <object>objects\objGlobalControls</object>
     <object>objects\obj_Globals</object>
     <object>objects\objMusicController</object>
   </objects>

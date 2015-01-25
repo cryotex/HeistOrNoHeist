@@ -34,6 +34,7 @@ if (stunned == false ){
         vspeed = scrApplyFriction(vspeed);
         
         with(feetIndex){
+            visible = true;
             image_angle = other.image_angle;
             x=other.x;
             y=other.y;

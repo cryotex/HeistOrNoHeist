@@ -28,11 +28,24 @@
             <string>///Grab number of pads and create appropriate number of players
 gamepads = instance_find(objGetGamePads, 0);
 numberOfPads = 0;
+var i = 0;
+for(i=0; i&lt;numberOfPads; i++;){
+    players[i] = instance_create(100, 100, objPlayer);
+    with(players[i]){
+        playerNumber = i;
+        x=912 + i*sprite_width;
+        y=192;
+        scrSetPlayerColour(i);
+        with(handIndex){
+            scrSetPlayerColour(other.playerNumber);
+        }        
+    }
+}
 
 with(gamepads){
     other.numberOfPads = numberOfPads;
 }
-var i = 0
+var i = 0;
 for(i=0; i&lt;numberOfPads; i++;){
     players[i] = instance_create(100, 100, objPlayer);
     with(players[i]){

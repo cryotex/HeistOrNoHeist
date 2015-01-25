@@ -148,6 +148,10 @@ vspeed = 0;
         }
         other.stunnedTime = 60*3;
     }
+    
+    with(other.feetIndex){
+        visible = false;
+    }
 }
 
 hspeed = 0;
