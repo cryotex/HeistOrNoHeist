@@ -1,7 +1,9 @@
 //Set up player properties
+sprite_xscale = 0.25;
+sprite_yscale = 0.25;
 image_speed = 0;
 
-playerDirection = 0;
+playerDirection = 2;
 
 stunned = false;
 

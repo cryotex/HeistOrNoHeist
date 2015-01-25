@@ -16,9 +16,12 @@
       <sprite>sprites\sprGame</sprite>
     </sprites>
     <sprites name="GameRoom">
-      <sprite>sprites\sprPlayer</sprite>
+      <sprites name="player">
+        <sprite>sprites\sprPlayerHands</sprite>
+        <sprite>sprites\sprPlayerFeet</sprite>
+        <sprite>sprites\sprPlayer</sprite>
+      </sprites>
       <sprite>sprites\sprTimeBox</sprite>
-      <sprite>sprites\sprPlayerHands</sprite>
       <sprite>sprites\sprWall</sprite>
       <sprite>sprites\sprEmpty</sprite>
       <sprite>sprites\sprThrowable</sprite>

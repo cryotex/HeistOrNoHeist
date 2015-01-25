@@ -8,10 +8,12 @@
         //image_angle = 90;
         newCollideX +=sprite_width/2;
         playerDirection = 1;
+        image_angle = 90;
     }else if (hspeed < 0){
         //image_angle = 270;
         newCollideX -=sprite_width/2;
         playerDirection = 0;
+        image_angle = 270;
     }
     
     var collidingWallTest = instance_place(newCollideX, newCollideY, objWalls);

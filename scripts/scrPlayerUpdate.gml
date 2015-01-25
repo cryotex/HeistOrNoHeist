@@ -39,5 +39,8 @@ if (stunned ==false ){
     if(stunnedTime <= 0){
         stunned = false;
         image_index = 0;
+        with(handIndex){
+            visible = true;
+        }
     }
 }
