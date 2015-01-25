@@ -19,18 +19,18 @@ with(argument0){
         }
     }*/
     
-    if(other.playerDirection==1){
+    if(other.image_angle == 0){
+        x = other.x ;
+        y = other.y + other.sprite_width/2-3;
+    }else if(other.image_angle == 90){
         x = other.x + other.sprite_width/2-3;
         y = other.y;
-    }else if(other.playerDirection==0){
-        x = other.x - other.sprite_width/2+3;
-        y = other.y;
-    }else if(other.playerDirection==3){
+    }else if(other.image_angle == 180){
         x = other.x;
         y = other.y - other.sprite_width/2+3;
-    }else if(other.playerDirection==2){
-        x = other.x;
-        y = other.y + other.sprite_width/2-3;
+    }else if(other.image_angle == 270){
+        x = other.x - other.sprite_width/2+3;
+        y = other.y;
     }
     
     if (argument1 != false){
