@@ -29,22 +29,27 @@
         }
     }
     
+
     var pushableTest = instance_place(newCollideX, newCollideY, objPushable);
     if (pushableTest != noone){
         with(pushableTest){ 
             if(newSpeed > 0 and newCollideY < y){
-                other.y = (y-sprite_height/2)-(other.sprite_height/2) 
-                scrPushableCheck(self, 0, 2);
+                other.y = (y-sprite_height/2)-(other.sprite_height/2) ;
+                if(other.currentObject==false or other.currentObject==noone){
+                    scrPushableCheck(self, other, 0, 1);
+                }
             }else if(newSpeed < 0 and newCollideX > y){
-                other.y = (y+sprite_height/2)+(other.sprite_height/2)
-                scrPushableCheck(self, 0, -2);
+                other.y = (y+sprite_height/2)+(other.sprite_height/2);
+                if(other.currentObject==false or other.currentObject==noone){
+                  scrPushableCheck(self, other, 0, -1);
+                }
             } 
         }
         vspeed = 0;
         scrUpdateHands(handIndex, currentObject); 
         return 0;
     }
-    
+
     var collidingObject;
     collidingObject = instance_place(newCollideX, newCollideY, objBaseThrowable);
     
