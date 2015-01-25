@@ -60,5 +60,11 @@ if (stunned == false ){
         with(handIndex){
             visible = true;
         }
+        with(other.stunnedIndex){
+            visible = false;
+        }
+        with(feetIndex){
+            visible = true;
+        }   
     }
 }
