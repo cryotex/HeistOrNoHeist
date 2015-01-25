@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="9" enumb="27">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,32 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Grab number of pads and create appropriate number of players
-gamepads = instance_find(objGetGamePads, 0);
-numberOfPads = 0;
-
-with(gamepads){
-    other.numberOfPads = numberOfPads;
-}
-var i = 0
-for(i=0; i&lt;numberOfPads; i++;){
-    players[i] = instance_create(100, 100, objPlayer);
-    with(players[i]){
-        playerNumber = i;
-        x=912 + i*sprite_width;
-        y=192;
-        scrSetPlayerColour(i);
-        
-    }
-}
-
-if (numberOfPads == 0){
-    players[i] = instance_create(100, 100, objPlayer);
-    with(players[i]){
-        playerNumber = 0;
-        noPad = true;
-    }
-}
+            <string>game_end();
 </string>
           </argument>
         </arguments>
