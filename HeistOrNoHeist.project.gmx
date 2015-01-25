@@ -11,7 +11,6 @@
       <sprite>sprites\sprPlayAgainPressed</sprite>
       <sprite>sprites\sprMainMenu</sprite>
       <sprite>sprites\sprStartButtonPressed</sprite>
-      <sprite>sprites\sprScoreBox</sprite>
       <sprite>sprites\sprStartButton</sprite>
       <sprite>sprites\sprGame</sprite>
     </sprites>
@@ -45,6 +44,7 @@
       <sprite>sprites\spr3rdPlace</sprite>
       <sprite>sprites\spr2ndPlace</sprite>
       <sprite>sprites\sprColumn</sprite>
+      <sprite>sprites\sprScoreBox</sprite>
     </sprites>
     <sprites name="HUD">
       <sprite>sprites\sprHudPlayer1</sprite>
@@ -57,6 +57,7 @@
   <backgrounds name="background">
     <background>background\bgStartBackground</background>
     <background>background\bgMap</background>
+    <background>background\bgResultsScreen</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -96,13 +97,13 @@
       <script>scripts\scr_ScoreBoxDraw.gml</script>
     </scripts>
     <script>scripts\scr_Globals.gml</script>
+    <script>scripts\scr_ResetGame.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\SoftSugar</font>
   </fonts>
   <objects name="objects">
     <objects name="StartScreen">
-      <object>objects\obPlayAgainButton</object>
       <object>objects\objGetGamePads</object>
       <object>objects\obStartButton</object>
       <object>objects\obStartButtonPressed</object>
@@ -143,6 +144,7 @@
       <object>objects\obj3rdPlace</object>
       <object>objects\objScoreBox</object>
       <object>objects\objColumn</object>
+      <object>objects\obPlayAgainButton</object>
     </objects>
     <object>objects\objExit</object>
     <object>objects\obj_Globals</object>

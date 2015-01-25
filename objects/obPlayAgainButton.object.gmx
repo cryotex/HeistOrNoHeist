@@ -73,7 +73,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(rmStartMenu);
+            <string>scr_ResetGame();
+
 
 </string>
           </argument>
