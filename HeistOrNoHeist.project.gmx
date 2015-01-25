@@ -80,6 +80,7 @@
         <script>scripts\scrPlayerUpdate.gml</script>
         <script>scripts\scrPlayerMoveX.gml</script>
         <script>scripts\scrPlayerMoveY.gml</script>
+        <script>scripts\scrSetPlayerColour.gml</script>
       </scripts>
       <scripts name="hands">
         <script>scripts\scrInitHands.gml</script>
@@ -140,6 +141,7 @@
       <object>objects\objScoreBox</object>
       <object>objects\objColumn</object>
     </objects>
+    <object>objects\objExit</object>
     <object>objects\obj_Globals</object>
   </objects>
   <rooms name="rooms">
