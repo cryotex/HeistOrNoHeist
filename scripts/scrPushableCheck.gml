@@ -3,8 +3,8 @@ var player = argument1;
 var xSpeed = argument2;
 var ySpeed = argument3;
 
-var newCollideX = pushableItem.x + xSpeed;
-var newCollideY = pushableItem.y + ySpeed;
+var newCollideX = pushableItem.x + (xSpeed*speedMultiplier);
+var newCollideY = pushableItem.y + (ySpeed*speedMultiplier);
 
 var collidingObject;
 collidingObject  = instance_place(newCollideX, newCollideY, objBaseThrowable);
@@ -16,10 +16,10 @@ collidingObject  = instance_place(newCollideX, newCollideY, objPushable);
     pushableItem.y = newCollideY;
  }
  
- if((player.id != pushableItem.owner1) or (player.id != pushableItem.owner2)){
-    pushableItem.owner1 = pushableItem.owner2;
-    pushableItem.owner2 = player.id;
- }else if (player.id == pushableItem.owner2){
-    pushableItem.owner2 =  pushableItem.owner1;
-    pushableItem.owner1 = player.id;
+ if((other.id != owner1) and (other.id != owner2)){
+    owner2 = owner1;
+    owner1 = other.id;
+ }else if (other.id == owner2){
+    owner2 =  owner1;
+    owner1 = other.id;
  }
