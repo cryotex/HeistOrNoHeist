@@ -134,6 +134,11 @@ vspeed = 0;
         other.image_index = 1;
         other.hspeed = 0;
         other.vspeed = 0;
+        
+        with(other.handIndex){
+            visible = false;
+        }
+        
         if(other.currentObject != false){
             mask_index = sprThrowable;
             //other.currentObject = false;
