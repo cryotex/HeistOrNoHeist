@@ -7,9 +7,11 @@
     if (hspeed  > 0) {
         //image_angle = 90;
         newCollideX +=sprite_width/2;
+        playerDirection = 1;
     }else if (hspeed < 0){
         //image_angle = 270;
         newCollideX -=sprite_width/2;
+        playerDirection = 0;
     }
     
     var collidingWallTest = instance_place(newCollideX, newCollideY, objWalls);
@@ -19,6 +21,22 @@
                 other.x = (x-sprite_width/2)-(other.sprite_width/2) 
             }else if(newSpeed < 0 and newCollideX > x){
                 other.x = (x+sprite_width/2)+(other.sprite_width/2)
+            } 
+        }
+        hspeed = 0;
+       //scrUpdateHands(handIndex, currentObject); 
+        return 0;
+    }
+    
+    var pushableTest = instance_place(newCollideX, newCollideY, objPushable);
+    if (pushableTest != noone){
+        with(pushableTest){ 
+            if(newSpeed > 0 and newCollideX < x){
+                other.x = (x-sprite_width/2)-(other.sprite_width/2) 
+                scrPushableCheck(self, 2, 0);
+            }else if(newSpeed < 0 and newCollideX > x){
+                other.x = (x+sprite_width/2)+(other.sprite_width/2)
+                scrPushableCheck(self, -2, 0);
             } 
         }
         hspeed = 0;
@@ -51,4 +69,3 @@
             hspeed = -maxSpeed;
         }
     }
-

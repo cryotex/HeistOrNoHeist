@@ -23,13 +23,13 @@ with(player){
     }
     else{
         with(currentObject){
-            if (other.playerDirection == "left"){
+            if (other.playerDirection == -0){
                 hspeed = -throwSpeed*2;
-            }else if (other.playerDirection == "right"){
+            }else if (other.playerDirection == 1){
                 hspeed = throwSpeed*2;
-            }else if (other.playerDirection == "up"){
+            }else if (other.playerDirection == 3){
                 vspeed = -throwSpeed*2;
-            }else if (other.playerDirection == "down"){
+            }else if (other.playerDirection == 2){
                 vspeed = throwSpeed*2;
             }        
         }

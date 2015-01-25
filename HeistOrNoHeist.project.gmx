@@ -23,6 +23,19 @@
       <sprite>sprites\sprEmpty</sprite>
       <sprite>sprites\sprThrowable</sprite>
       <sprite>sprites\sprCar</sprite>
+      <sprite>sprites\sprPushable</sprite>
+      <sprites name="1x1_Items">
+        <sprite>sprites\sprAmberGem</sprite>
+        <sprite>sprites\sprDiamondGem</sprite>
+        <sprite>sprites\sprEmeraldGem</sprite>
+        <sprite>sprites\sprRubyGem</sprite>
+        <sprite>sprites\sprSapphireGem</sprite>
+      </sprites>
+      <sprites name="2x2_Items">
+        <sprite>sprites\scrSarcophagus</sprite>
+        <sprite>sprites\sprKnight</sprite>
+        <sprite>sprites\sprCrate</sprite>
+      </sprites>
     </sprites>
     <sprites name="ResultScreen">
       <sprite>sprites\spr1stPlace</sprite>
@@ -59,6 +72,7 @@
       </scripts>
       <scripts name="throwable">
         <script>scripts\scrThrowableUpdate.gml</script>
+        <script>scripts\scrPushableCheck.gml</script>
       </scripts>
       <scripts name="player">
         <script>scripts\scrInitPlayer.gml</script>
@@ -102,8 +116,21 @@
       <object>objects\objHudPlayer3</object>
       <object>objects\objHudPlayer4</object>
       <object>objects\obj_GameController</object>
-      <object>objects\objBaseThrowable</object>
       <object>objects\objCar</object>
+      <objects name="1x1_Items">
+        <object>objects\objEmeraldGem</object>
+        <object>objects\objDiamondGem</object>
+        <object>objects\objAmberGem</object>
+        <object>objects\objRubyGem</object>
+        <object>objects\objSapphireGem</object>
+        <object>objects\objBaseThrowable</object>
+      </objects>
+      <objects name="2x2_Item">
+        <object>objects\objPushable</object>
+        <object>objects\objSarcophagus</object>
+        <object>objects\objKnight</object>
+        <object>objects\objCrate</object>
+      </objects>
     </objects>
     <objects name="ResultScreen">
       <object>objects\obj1stPlace</object>
