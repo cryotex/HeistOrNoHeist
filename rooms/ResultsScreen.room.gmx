@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1920</width>
   <height>1080</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -52,7 +52,10 @@
   </views>
   <instances>
     <instance objName="objResultsScreenController" x="192" y="128" name="inst_52C350F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obPlayAgainButton" x="352" y="960" name="inst_24A3E73A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj2ndPlace" x="1362" y="395" name="inst_68952374" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="350"/>
+    <instance objName="obj1stPlace" x="718" y="406" name="inst_386E62F2" locked="0" code="" scaleX="0.449999988079071" scaleY="0.449999988079071" colour="4294967295" rotation="10"/>
+    <instance objName="obj3rdPlace" x="1254" y="815" name="inst_09ED59EE" locked="0" code="" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="15"/>
+    <instance objName="obj4thPlace" x="857" y="1034" name="inst_825B6979" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

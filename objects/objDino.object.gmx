@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>event_inherited();
-speedMultiplier = 0.1;
+speedMultiplier = 0.3;
+value = 6000;
 </string>
           </argument>
         </arguments>

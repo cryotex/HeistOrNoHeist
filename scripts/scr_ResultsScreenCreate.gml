@@ -9,3 +9,49 @@ for(var i=0; i<3;++i)
         index = i;
     }
 }
+
+var first_score = ds_list_find_value(sorted_scores, 0);
+var second_score = ds_list_find_value(sorted_scores, 1);
+var third_score = ds_list_find_value(sorted_scores, 2);
+
+first = instance_find(obj1stPlace, 0);
+second = instance_find(obj2ndPlace, 0);
+third = instance_find(obj3rdPlace, 0);
+forth = instance_find(obj4thPlace, 0);
+
+
+
+for(i=0;i<player_count;++i)
+{
+    if(player_scores[i] == first_score)
+    {
+        with(first)
+        {
+            scrSetPlayerColour(i);
+        }        
+    }
+    else if(player_scores[i] == second_score)
+    {
+        with(second)
+        {
+            scrSetPlayerColour(i);
+        }  
+    }
+    else if(player_scores[i] == third_score)
+    {
+        with(third)
+        {
+            scrSetPlayerColour(i);
+        }  
+    }else{
+        with(forth){
+            scrSetPlayerColour(i);
+        }
+    }
+}
+
+
+
+
+
+

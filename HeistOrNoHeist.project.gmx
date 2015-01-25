@@ -4,7 +4,23 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndAlarm</sound>
+    <sound>sound\sound15</sound>
+    <sound>sound\sndPush</sound>
+    <sound>sound\sndReward</sound>
+    <sound>sound\sndThrow</sound>
+    <sound>sound\sndStun</sound>
+    <sound>sound\sndPickup</sound>
+    <sound>sound\sndWallHit</sound>
+    <sound>sound\sndMusicEnd</sound>
+    <sound>sound\sndMusicLast</sound>
+    <sound>sound\sndMusicPart1</sound>
+    <sound>sound\sndMusicPart2</sound>
+    <sound>sound\sndMusicPart3</sound>
+    <sound>sound\sndMusicMenu</sound>
+    <sound>sound\sndFootsteps</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="StartScreen">
       <sprite>sprites\sprPlayAgainButton</sprite>
@@ -28,6 +44,7 @@
       <sprite>sprites\sprPushable</sprite>
       <sprites name="1x1_Items">
         <sprite>sprites\sprAmberGem</sprite>
+        <sprite>sprites\sprFossil</sprite>
         <sprite>sprites\sprDiamondGem</sprite>
         <sprite>sprites\sprEmeraldGem</sprite>
         <sprite>sprites\sprRubyGem</sprite>
@@ -35,12 +52,19 @@
       </sprites>
       <sprites name="2x2_Items">
         <sprite>sprites\scrSarcophagus</sprite>
+        <sprite>sprites\sprSarcophagus2</sprite>
         <sprite>sprites\sprKnight</sprite>
         <sprite>sprites\sprCrate</sprite>
         <sprite>sprites\sprDino</sprite>
+        <sprite>sprites\sprKnight2</sprite>
       </sprites>
+      <sprite>sprites\sprStunned</sprite>
     </sprites>
     <sprites name="ResultScreen">
+      <sprite>sprites\sprFirst</sprite>
+      <sprite>sprites\sprForth</sprite>
+      <sprite>sprites\sprThird</sprite>
+      <sprite>sprites\sprSecond</sprite>
       <sprite>sprites\spr1stPlace</sprite>
       <sprite>sprites\spr3rdPlace</sprite>
       <sprite>sprites\spr2ndPlace</sprite>
@@ -90,6 +114,7 @@
       <scripts name="hands">
         <script>scripts\scrInitHands.gml</script>
         <script>scripts\scrUpdateHands.gml</script>
+        <script>scripts\scrUpdateHandRotation.gml</script>
       </scripts>
       <script>scripts\scrPushableCarCollide.gml</script>
     </scripts>
@@ -115,6 +140,7 @@
       <object>objects\objPlayerHands</object>
       <object>objects\objWalls</object>
       <object>objects\objPlayerController</object>
+      <object>objects\objPlayerFeet</object>
       <object>objects\objPlayer</object>
       <object>objects\obj_TimeDisplay</object>
       <object>objects\objHudWinMarker</object>
@@ -126,6 +152,7 @@
       <object>objects\objCar</object>
       <objects name="1x1_Items">
         <object>objects\objEmeraldGem</object>
+        <object>objects\objFossil</object>
         <object>objects\objDiamondGem</object>
         <object>objects\objAmberGem</object>
         <object>objects\objRubyGem</object>
@@ -135,22 +162,27 @@
       <objects name="2x2_Item">
         <object>objects\objPushable</object>
         <object>objects\objSarcophagus</object>
+        <object>objects\objSarcophagus2</object>
         <object>objects\objKnight</object>
+        <object>objects\objKnight2</object>
         <object>objects\objCrate</object>
         <object>objects\objDino</object>
       </objects>
+      <object>objects\objStunned</object>
     </objects>
     <objects name="ResultScreen">
-      <object>objects\obj1stPlace</object>
       <object>objects\objResultsScreenController</object>
+      <object>objects\obj1stPlace</object>
       <object>objects\obj2ndPlace</object>
       <object>objects\obj3rdPlace</object>
+      <object>objects\obj4thPlace</object>
       <object>objects\objScoreBox</object>
       <object>objects\objColumn</object>
       <object>objects\obPlayAgainButton</object>
     </objects>
-    <object>objects\objExit</object>
+    <object>objects\objGlobalControls</object>
     <object>objects\obj_Globals</object>
+    <object>objects\objMusicController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmStartMenu</room>

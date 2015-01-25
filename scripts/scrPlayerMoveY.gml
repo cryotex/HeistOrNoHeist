@@ -10,11 +10,13 @@
         newCollideY +=sprite_height/2;
         playerDirection = 2;
         image_angle = 0;
+       scrUpdateHandRotation();
     }else if (vspeed < 0){
         //image_angle = 0 ;
         newCollideY -=sprite_height/2;
         playerDirection = 3;
         image_angle = 180;
+        scrUpdateHandRotation();
     }
     
     var collidingWallTest = instance_place(newCollideX, newCollideY, objWalls);
@@ -48,7 +50,7 @@
             } 
         }
         vspeed = 0;
-        scrUpdateHands(handIndex, currentObject); 
+        //scrUpdateHands(handIndex, currentObject); 
         return 0;
     }
 

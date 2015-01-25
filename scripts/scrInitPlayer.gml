@@ -22,3 +22,12 @@ hspeed = 0;
 vspeed = 0;
 
 handIndex = instance_create(sprite_width/2 + x, y, objPlayerHands);
+
+feetIndex = instance_create(x, y, objPlayerFeet);
+
+stunnedIndex = instance_create(x, y, objStunned);
+
+with(stunnedIndex){
+    visible = false;
+}
+

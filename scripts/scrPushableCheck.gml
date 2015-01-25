@@ -14,6 +14,11 @@ collidingObject  = instance_place(newCollideX, newCollideY, objPushable);
  if (collidingObject == false or collidingObject==noone){
     pushableItem.x = newCollideX;
     pushableItem.y = newCollideY;
+    if (audio_is_playing(pushingSound) == false){
+        pushingSound = audio_play_sound(sndPush, 2, false);
+    }else{
+        audio_resume_sound(pushingSound);
+    }
  }
  
  if((other.id != owner1) and (other.id != owner2)){

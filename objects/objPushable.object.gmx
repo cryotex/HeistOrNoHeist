@@ -30,8 +30,10 @@ vspeed = 0;
 maxSpeed = 2;
 owner1 = 0;
 owner2 = 0;
-value = 500;
+
+value = 1000;
 speedMultiplier = 1;
+pushingSound = 0;
 
 </string>
           </argument>
