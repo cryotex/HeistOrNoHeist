@@ -1,3 +1,5 @@
+show_debug_message("Setting Globals");
+
 globalvar player_count;
 player_count = 4;
 
@@ -6,10 +8,10 @@ globalvar timer_tick_rate;
 timer_tick_rate = 60;
 
 globalvar minutes_left;
-minutes_left=5;
+minutes_left=0;
 
 globalvar seconds_left;
-seconds_left=0;
+seconds_left=10;
 
 
 //Scores
@@ -27,3 +29,6 @@ sorted_scores = ds_list_create();
 
 globalvar first_place;
 first_place = -1;
+
+
+ 
