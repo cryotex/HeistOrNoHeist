@@ -98,26 +98,26 @@
     <instance objName="objAmberGem" x="48" y="688" name="inst_5A89F9E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="48" y="880" name="inst_113D2A40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="48" y="496" name="inst_4A974137" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmeraldGem" x="944" y="944" name="inst_8BCB5085" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmeraldGem" x="960" y="944" name="inst_8BCB5085" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="112" y="1040" name="inst_28CE83DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="560" y="1040" name="inst_D8B9BD06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="240" y="1040" name="inst_59BBE822" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="1648" y="1040" name="inst_9E265335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="928" y="944" name="inst_A9B238A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="1616" y="1040" name="inst_9E265335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="48" y="752" name="inst_9A681149" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="48" y="624" name="inst_9CD07EF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="48" y="1040" name="inst_B0F2FB67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRubyGem" x="48" y="944" name="inst_E29039C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRubyGem" x="624" y="944" name="inst_8DFDAB22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRubyGem" x="1392" y="1040" name="inst_D0A03364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRubyGem" x="1360" y="1040" name="inst_D0A03364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRubyGem" x="48" y="560" name="inst_F5E68A1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRubyGem" x="48" y="240" name="inst_B913F683" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRubyGem" x="1008" y="944" name="inst_DBD4BD6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRubyGem" x="1040" y="944" name="inst_DBD4BD6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRubyGem" x="1840" y="944" name="inst_EB71E0ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRubyGem" x="1712" y="1040" name="inst_D53B5C82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRubyGem" x="1680" y="1040" name="inst_D53B5C82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSapphireGem" x="752" y="1040" name="inst_95E34164" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSapphireGem" x="1200" y="1040" name="inst_EFA60821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSapphireGem" x="1168" y="1040" name="inst_EFA60821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSapphireGem" x="48" y="432" name="inst_CAB90427" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSapphireGem" x="1520" y="1040" name="inst_74C6B785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSapphireGem" x="1488" y="1040" name="inst_74C6B785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSarcophagus" x="496" y="768" name="inst_13AE8731" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objKnight" x="1424" y="544" name="inst_402B8485" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCrate" x="576" y="272" name="inst_E674EB4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -133,27 +133,27 @@
     <instance objName="objFossil" x="960" y="848" name="inst_CC2D6AFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="496" y="1040" name="inst_4003EC0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="688" y="944" name="inst_73C1AA5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objKnight" x="160" y="160" name="inst_4D76DD90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmeraldGem" x="1840" y="1040" name="inst_B48404B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objKnight" x="176" y="160" name="inst_4D76DD90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmeraldGem" x="1808" y="1040" name="inst_B48404B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="1520" y="944" name="inst_5F736345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmeraldGem" x="1456" y="1040" name="inst_130FBF74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmeraldGem" x="1584" y="1040" name="inst_CE2B17B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmeraldGem" x="1072" y="1040" name="inst_612D4531" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmeraldGem" x="1136" y="1040" name="inst_A7294E52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmeraldGem" x="1424" y="1040" name="inst_130FBF74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmeraldGem" x="1552" y="1040" name="inst_CE2B17B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmeraldGem" x="1040" y="1040" name="inst_612D4531" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmeraldGem" x="1104" y="1040" name="inst_A7294E52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="176" y="1040" name="inst_2804CCF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEmeraldGem" x="368" y="1040" name="inst_9D522FA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="240" y="944" name="inst_D5E997B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAmberGem" x="1872" y="1040" name="inst_17F045C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="688" y="1040" name="inst_20C12007" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="304" y="1040" name="inst_2667BAC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRubyGem" x="880" y="1040" name="inst_4F5A6033" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="1776" y="1040" name="inst_580DFFAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="1744" y="1040" name="inst_580DFFAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="1648" y="944" name="inst_14C05370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="1584" y="944" name="inst_C51B4C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="880" y="944" name="inst_BB5A7FA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="1264" y="1040" name="inst_675F4D22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="1328" y="1040" name="inst_05DE00AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="1008" y="1040" name="inst_A1BD40E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDiamondGem" x="944" y="1040" name="inst_BF874EE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="1232" y="1040" name="inst_675F4D22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="1296" y="1040" name="inst_05DE00AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="992" y="1040" name="inst_A1BD40E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="1872" y="944" name="inst_2540F77C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="432" y="1040" name="inst_B49CCCFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="304" y="944" name="inst_7A25F292" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDiamondGem" x="48" y="176" name="inst_5048B0D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -202,6 +202,14 @@
     <instance objName="objRubyGem" x="1200" y="944" name="inst_063F26F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSapphireGem" x="1264" y="944" name="inst_4A0A38DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAmberGem" x="1328" y="944" name="inst_E4DB0A8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="48" y="992" name="inst_F34E47B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="928" y="1040" name="inst_0B016D80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="992" y="944" name="inst_B0C7CA22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="960" y="1040" name="inst_18E9F90F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRubyGem" x="1872" y="992" name="inst_6D975282" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRubyGem" x="240" y="1040" name="inst_32E47218" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRubyGem" x="240" y="944" name="inst_9FBC06A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDiamondGem" x="80" y="944" name="inst_AD7620A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

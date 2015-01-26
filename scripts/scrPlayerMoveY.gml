@@ -8,14 +8,18 @@
     if (vspeed > 0){
         //image_angle = 180;
         newCollideY +=sprite_height/2;
-        playerDirection = 2;
-        image_angle = 0;
-       scrUpdateHandRotation();
     }else if (vspeed < 0){
         //image_angle = 0 ;
         newCollideY -=sprite_height/2;
-        playerDirection = 3;
+    }
+
+if (newSpeed < 0){
+        playerDirection =3;
         image_angle = 180;
+        scrUpdateHandRotation();
+    }else if (newSpeed > 0){
+        playerDirection = 2;
+        image_angle = 0;
         scrUpdateHandRotation();
     }
     

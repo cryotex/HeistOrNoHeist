@@ -30,4 +30,3 @@ stunnedIndex = instance_create(x, y, objStunned);
 with(stunnedIndex){
     visible = false;
 }
-
