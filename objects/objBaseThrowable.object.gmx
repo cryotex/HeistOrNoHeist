@@ -35,6 +35,8 @@ movementSpeed = 10;
 
 friction=1;
 
+wallCollisionSound = 0;
+
 </string>
           </argument>
         </arguments>
@@ -196,7 +198,9 @@ vspeed = 0;
             <string>hspeed = 0;
 vspeed = 0;
 
-audio_play_sound(sndWallHit, 0, false);
+wallCollisionSound = audio_play_sound(sndWallHit, 0, false);
+
+
 </string>
           </argument>
         </arguments>

@@ -3,9 +3,15 @@ var collideY = y + vspeed;
 
 var pushableTest = instance_place(collideX, collideY, objPushable);
 if (pushableTest!= false and pushableTest != noone){
-   hspeed = 0;
-   vspeed = 0;
-   return 0;
+   scrCollisionCheck(pushableTest);
+} else {
+    x = collideX;
+    y = collideY;
+}
+
+var wallTest = instance_place(collideX, collideY, objWalls);
+if (wallTest!= false and wallTest != noone){
+    scrCollisionCheck(wallTest);
 } else {
     x = collideX;
     y = collideY;

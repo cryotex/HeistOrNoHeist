@@ -87,9 +87,12 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="GameScreen">
-      <script>scripts\scrItemCarCollide.gml</script>
       <script>scripts\scrGameControllerCreate.gml</script>
       <script>scripts\scrApplyFriction.gml</script>
+      <scripts name="car">
+        <script>scripts\scrItemCarCollide.gml</script>
+        <script>scripts\scrPushableCarCollide.gml</script>
+      </scripts>
       <scripts name="HUD">
         <script>scripts\scr_HudControllerStep.gml</script>
         <script>scripts\scr_HudControllerCreate.gml</script>
@@ -116,7 +119,7 @@
         <script>scripts\scrUpdateHands.gml</script>
         <script>scripts\scrUpdateHandRotation.gml</script>
       </scripts>
-      <script>scripts\scrPushableCarCollide.gml</script>
+      <script>scripts\scrCollisionCheck.gml</script>
     </scripts>
     <scripts name="ResultScreen">
       <script>scripts\scr_ResultsScreenCreate.gml</script>
@@ -131,12 +134,12 @@
   </fonts>
   <objects name="objects">
     <objects name="StartScreen">
-      <object>objects\objGetGamePads</object>
       <object>objects\obStartButton</object>
       <object>objects\obStartButtonPressed</object>
     </objects>
     <objects name="GameScreen">
       <object>objects\obj_HudController</object>
+      <object>objects\obj_GameController</object>
       <object>objects\objPlayerHands</object>
       <object>objects\objWalls</object>
       <object>objects\objPlayerController</object>
@@ -148,7 +151,7 @@
       <object>objects\objHudPlayer2</object>
       <object>objects\objHudPlayer3</object>
       <object>objects\objHudPlayer4</object>
-      <object>objects\obj_GameController</object>
+      <object>objects\objStunned</object>
       <object>objects\objCar</object>
       <objects name="1x1_Items">
         <object>objects\objEmeraldGem</object>
@@ -168,7 +171,6 @@
         <object>objects\objCrate</object>
         <object>objects\objDino</object>
       </objects>
-      <object>objects\objStunned</object>
     </objects>
     <objects name="ResultScreen">
       <object>objects\objResultsScreenController</object>
@@ -180,11 +182,13 @@
       <object>objects\objColumn</object>
       <object>objects\obPlayAgainButton</object>
     </objects>
+    <object>objects\objGetGamePads</object>
     <object>objects\objGlobalControls</object>
     <object>objects\obj_Globals</object>
     <object>objects\objMusicController</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmInitSingeltons</room>
     <room>rooms\rmStartMenu</room>
     <room>rooms\rmGame</room>
     <room>rooms\ResultsScreen</room>
