@@ -15,6 +15,7 @@ with(player){
                 other.currentObject = collidedObject;
                 with(other.currentObject){
                     mask_index = sprEmpty;
+                    //image_angle = other.image_angle;
                 }
             }
         }

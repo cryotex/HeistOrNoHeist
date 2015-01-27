@@ -119,6 +119,7 @@
         <script>scripts\scrUpdateHands.gml</script>
         <script>scripts\scrUpdateHandRotation.gml</script>
       </scripts>
+      <script>scripts\scrThrowableCollisionCheck.gml</script>
       <script>scripts\scrCollisionCheck.gml</script>
     </scripts>
     <scripts name="ResultScreen">
