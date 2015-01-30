@@ -1,5 +1,6 @@
-
 // add score to player who owns item
+audio_play_sound(sndReward, 3, false);
+
 var ownerCount = 1;
 if(other.owner2!= false){
     ownerCount = 2;
